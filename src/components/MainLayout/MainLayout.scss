@@ -1,0 +1,11 @@
+@import '../../styles/themes/color.scss';
+.main-layout-container {
+  background-color: $light;
+	width: 100vw;
+	height: 100vh;
+
+	.main-layout-content {
+		padding-top: 65px;
+		margin-left: 230px;
+	}
+}

@@ -1,0 +1,17 @@
+@import '../../styles/themes/color.scss';
+.button-container {
+  display: flex;
+  justify-content: center;
+  .btn-primary {
+    font-weight: 500;
+    color: #fff !important;
+    background-color: $primary !important;
+    text-transform: capitalize !important;
+    width: 130px;
+  }
+}
+.modal-close {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}

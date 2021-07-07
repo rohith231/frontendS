@@ -1,0 +1,15 @@
+@import '../../../styles/themes/color.scss';
+.dashboard-header{
+  background-color: $white;
+	height: 65px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+
+	.dashboard-logo { 
+		width: 100px;
+		padding: 10px;
+		margin-left: 20px;
+	}
+}
